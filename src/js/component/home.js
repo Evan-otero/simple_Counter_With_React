@@ -12,15 +12,24 @@ export class Home extends React.Component {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-1">clock</div>
-					<div className="col-md-1">0</div>
-					<div className="col-md-1">0</div>
-					<div className="col-md-1">0</div>
-					<div className="col-md-1">0</div>
-					<div className="col-md-1">0</div>
-					<div className="col-md-1">0</div>
-					<div className="col-md-1">{Counter /}</div>
+					<div className="four">{props.digitfour}</div>
+					<div className="three">{props.digitthree}</div>
+					<div className="two">{props.digittwo}</div>
+					<div className="one">{props.digitone}</div>
 				</div>
 			</div>
 		);
 	}
 }
+
+let alp = bravo => {
+	let time = 0;
+	setInterval(() => {
+		time += 1;
+		return time;
+	}, bravo);
+};
+
+ReactDOM.render(
+
+)

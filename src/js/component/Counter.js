@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Counter = () => {};
+export const Counter = () => {
+    return(
+
+    )
+};
 let alp = bravo => {
 	let time = 0;
 	setInterval(() => {
