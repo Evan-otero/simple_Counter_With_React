@@ -10,7 +10,16 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="container">
-				<Counter />
+				<div className="row">
+					<div className="col-md-1">clock</div>
+					<div className="col-md-1">0</div>
+					<div className="col-md-1">0</div>
+					<div className="col-md-1">0</div>
+					<div className="col-md-1">0</div>
+					<div className="col-md-1">0</div>
+					<div className="col-md-1">0</div>
+					<div className="col-md-1">{Counter /}</div>
+				</div>
 			</div>
 		);
 	}
